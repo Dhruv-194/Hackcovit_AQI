@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bargph"></activity>
+        <activity android:name=".Web3"></activity>
+        <activity android:name=".bargph" />
         <activity android:name=".Web2" />
         <activity android:name=".Info" />
         <activity android:name=".Search" />

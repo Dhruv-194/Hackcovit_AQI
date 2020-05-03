@@ -44,6 +44,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Search.this, bargph.class);
+                intent.putExtra("Search",txt);
                 startActivity(intent);
             }
         });
